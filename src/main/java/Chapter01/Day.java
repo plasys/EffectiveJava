@@ -41,10 +41,11 @@ public class Day {
         요일 여러개를 한글로 받아서(배열에 받음) map에 저장된 요일(String)을 list에 담아서 반환
     */
     public static List<Day> of(String ... strings) {
+
         List<Day> list = new ArrayList<>();
 
-        for (int i = 0; i < strings.length; i++) {
-            list.add(days.get(strings[i]));
+        for (String s : strings) {
+            list.add(days.get(s));
         }
 
         return list;
@@ -67,6 +68,7 @@ public class Day {
         // of
         List<Day> days = Day.of("월", "화", "수", "목");
         days.forEach(d -> System.out.println(d.getDay()));
+
 
     }
 }
