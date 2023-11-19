@@ -14,10 +14,10 @@ public class Main {
         Calendar c = Calendar.getInstance();
         Calendar d = Calendar.getInstance();
 
-        System.out.println(c);
-        System.out.println(d);
+        System.out.println(c==d);
 
 //        MyClass m = new MyClass();
+        Calendar cal = Calendar.getInstance();
 
     }
 }
