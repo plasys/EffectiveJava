@@ -1,7 +1,6 @@
 package Chapter02.Item03;
 
 import java.util.function.Supplier;
-import java.util.function.UnaryOperator;
 
 public class TrueDamage {
 
