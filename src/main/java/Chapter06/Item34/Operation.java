@@ -12,6 +12,9 @@ public enum Operation {
 
     abstract double calculate(double x, double y);
 
+    public String getSymbol() {
+        return symbol;
+    }
     @Override
     public String toString() {
         return symbol;

@@ -6,6 +6,7 @@ public class Test {
 
         System.out.println(Operation.PLUS.calculate(1,2));
 
+        System.out.println(Operation.PLUS.getSymbol());
         Operation[] a = Operation.values();
 
         System.out.println(a[0]);
